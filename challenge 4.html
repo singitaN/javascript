@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JavaScript</title>
+  
+</head>
+<body>
+
+
+<p id="demo"></p>
+
+
+<script>
+  	
+
+function hrsMins(x){
+	var y = x /60;
+	var time = y.toString().split('.');
+	var hour = time[0];
+	var minute = x % 60;
+	return hour + 'hour' + minute + 'minutes';
+}
+console.log(hrsMins(87));
+
+
+  </script>
+  </body>
+</html>
